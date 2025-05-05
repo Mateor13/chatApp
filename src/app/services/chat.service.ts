@@ -11,6 +11,12 @@ import  {
 
 import { Observable } from 'rxjs';
 
+export interface Message {
+  user:String;
+  content:String;
+  createdAt:Number;
+}
+
 @Injectable({
   providedIn: 'root'
 })
